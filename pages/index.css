@@ -4,7 +4,7 @@
 
 @import url(../bloks/header/header.css);
 @import url(../bloks/header/__logo/header__logo.css);
-@import url(../bloks/header/__lang-link/header__lang-link.css); /*удалить???*/
+@import url(../bloks/header/__lang-link/header__lang-link.css); 
 @import url(../bloks/header/__lang/header__lang.css);           /*параграф*/
 @import url(../bloks/header/__lang/_line/header__lang_line.css);/*удалить???*/
 
@@ -35,14 +35,12 @@
 @import url(../bloks/place/__text/_last/place__text_last.css);  /*модификатор последней надписи о Карелии*/
 
 @import url(../bloks/cover/cover.css);
-@import url(../bloks/cover/__link/cover__link.css);             /*удалить???*/
+@import url(../bloks/cover/__link/cover__link.css);             
 @import url(../bloks/cover/__title/cover__title.css);           /*заголовок Н2*/
 @import url(../bloks/cover/__subtitle/cover__subtitle.css);     /*параграф*/
-@import url(../bloks/cover/__overlay/cover__overlay.css);       /*удалить???*/
-@import url(../bloks/cover/__background/cover__background.css); 
 
 @import url(../bloks/footer/footer.css);
-@import url(../bloks/footer/__links/footer__links.css);         /*удалить???*/
+@import url(../bloks/footer/__links/footer__links.css);         
 @import url(../bloks/footer/__links-spisok/Footer__links-spisok.css);
 @import url(../bloks/footer/__link/footer__link.css);
 @import url(../bloks/footer/__copyright/footer__copyright.css);

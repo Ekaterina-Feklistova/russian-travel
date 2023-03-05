@@ -10,6 +10,7 @@
     position: relative;
     box-sizing: border-box;
     max-width: 100%;
+    text-decoration: none;
 }
 .cover:before {
     content: '';
