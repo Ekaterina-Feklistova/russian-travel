@@ -1,0 +1,48 @@
+@import url(../bloks/vendor/normalize.css);
+@import url(../bloks/vendor/fonts/fonts.css);
+@import url(../bloks/root/root.css);
+
+@import url(../bloks/header/header.css);
+@import url(../bloks/header/__logo/header__logo.css);
+@import url(../bloks/header/__lang-link/header__lang-link.css); /*удалить???*/
+@import url(../bloks/header/__lang/header__lang.css);           /*параграф*/
+@import url(../bloks/header/__lang/_line/header__lang_line.css);/*удалить???*/
+
+@import url(../bloks/lead/lead.css);
+@import url(../bloks/lead/__title/lead__title.css);             /*заголовок Н1*/
+@import url(../bloks/lead/__subtitle/lead__subtitle.css);       /*параграф*/
+@import url(../bloks/lead/__image/lead__image.css);
+@import url(../bloks/lead/__caption/lead__caption.css);         /*параграф*/
+
+@import url(../bloks/intro/intro.css);
+@import url(../bloks/intro/__title/intro__title.css);           /*заголовок Н3*/
+@import url(../bloks/intro/__text/intro__text.css);             /*параграф*/
+@import url(../bloks/intro/__list/intro__list.css);             /*список*/
+@import url(../bloks/intro/__span/intro__span.css);
+
+@import url(../bloks/photo-grid/photo-grid.css);                /*галерея*/
+@import url(../bloks/photo-grid/__photo/photo-grid__photo.css);
+
+@import url(../bloks/places/places.css);
+@import url(../bloks/place/place.css);                          /*главная область для тренировки грида*/
+@import url(../bloks/place/__title/place__title.css);           /*заголовок Н2*/
+@import url(../bloks/place/__image/place__image.css);
+@import url(../bloks/place/__website/place__website.css);
+@import url(../bloks/place/__url-heading/place__url-heading.css);
+@import url(../bloks/place/__link/place__link.css);
+@import url(../bloks/place/__paragraph/place__paragraph.css);   /*параграф*/
+@import url(../bloks/place/__text/place__text.css);
+@import url(../bloks/place/__text/_last/place__text_last.css);  /*модификатор последней надписи о Карелии*/
+
+@import url(../bloks/cover/cover.css);
+@import url(../bloks/cover/__link/cover__link.css);             /*удалить???*/
+@import url(../bloks/cover/__title/cover__title.css);           /*заголовок Н2*/
+@import url(../bloks/cover/__subtitle/cover__subtitle.css);     /*параграф*/
+@import url(../bloks/cover/__overlay/cover__overlay.css);       /*удалить???*/
+@import url(../bloks/cover/__background/cover__background.css); 
+
+@import url(../bloks/footer/footer.css);
+@import url(../bloks/footer/__links/footer__links.css);         /*удалить???*/
+@import url(../bloks/footer/__links-spisok/Footer__links-spisok.css);
+@import url(../bloks/footer/__link/footer__link.css);
+@import url(../bloks/footer/__copyright/footer__copyright.css);
