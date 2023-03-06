@@ -1,0 +1,26 @@
+.place__paragraph {
+    margin: 0 0;
+    max-width: 100%;
+    max-height: max-content;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    grid-area: paragraph;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 876px) {
+     .place__paragraph {
+        font-size: 16px;
+        line-height: 163%;
+     }
+}
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        max-width: 288px;
+        padding-left: 16px;
+    }
+}
