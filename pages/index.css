@@ -1,11 +1,12 @@
-@import url(../blocks/vendor/normalize.css);
-@import url(../blocks/vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css); 
-@import url(../blocks/header/__lang/header__lang.css);           
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang/_active/header__lang_active.css); /*модификатор языка*/          
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);             /*заголовок Н1*/
@@ -31,9 +32,9 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);   /*параграф*/
 @import url(../blocks/place/__text/place__text.css);
-@import url(../blocks/place/__text/_last/place__text_last.css);  /*модификатор последней надписи о Карелии*/
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);           /*заголовок Н2*/
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);     /*параграф*/
 

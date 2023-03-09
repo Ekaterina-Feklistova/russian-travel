@@ -1,6 +1,9 @@
 .place__text {
-    margin: 0 0;
+    margin: 0;
     margin-bottom: 26px;
+}
+.place__text:last-child {
+    margin: 0;
 }
 @media screen and (max-width: 768px) {
     .place__text{

@@ -1,6 +1,6 @@
 .cover {
-    margin: 0 0;
-    padding: 0 0;
+    margin: 0;
+    padding: 0;
     background: url(../../images/cover-background.jpg) no-repeat;
     background-position: center;
     max-width: 1184px;
@@ -13,7 +13,6 @@
     flex-direction: column;
     position: relative;
     box-sizing: border-box;
-    text-decoration: none;
 }
 .cover:before {
     content: '';

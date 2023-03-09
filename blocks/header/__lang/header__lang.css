@@ -1,7 +1,6 @@
 .header__lang {
-    margin: 0 0;
+    margin: 0;
     max-width: 30px;
-    max-height: 28px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -11,17 +10,11 @@
     float: left;
     text-decoration: none;
 }
-.header__lang:first-child {
-    margin-right: 18px;
-    text-decoration: underline;
-}
 .header__lang:hover {
-    opacity: 0.4;
+    opacity: 0.8;
 }
 @media screen and (max-width: 767px) {
     .header__lang {
-        max-width: 22px;
-        max-height: 20px;
         font-size: 18px;
         line-height: 20px;
     }
